@@ -1,6 +1,6 @@
 ﻿import { cookies } from 'next/headers';
 import { NextResponse } from 'next/server';
-import { getAdminRecord, isPersistentStoreConfigured, saveAdminRecord } from '../../../../lib/admin-store';
+import { getAdminRecord, getAdminStoreStatus, saveAdminRecord } from '../../../../lib/admin-store';
 import { createSessionToken, getSessionCookieOptions, hashPassword, SESSION_COOKIE, verifyPassword, verifySessionToken } from '../../../../lib/auth';
 
 export async function POST(request) {
@@ -11,9 +11,18 @@ export async function POST(request) {
   }
 
   const { currentPassword, nextPassword } = await request.json();
-  if (process.env.VERCEL && !isPersistentStoreConfigured()) {
-    return NextResponse.json({ error: 'Vercel KV? ???? ???? ??? ?? ??? ? ????.' }, { status: 400 });
+  const store = getAdminStoreStatus();
+
+  if (!store.durable && process.env.VERCEL) {
+    return NextResponse.json(
+      {
+        error: 'Vercel 배포에서는 영구 저장소가 연결되어야 비밀번호 변경을 보존할 수 있습니다.',
+        store,
+      },
+      { status: 400 },
+    );
   }
+
   if (!nextPassword || nextPassword.length < 8) {
     return NextResponse.json({ error: '새 비밀번호는 8자 이상이어야 합니다.' }, { status: 400 });
   }
@@ -31,5 +40,9 @@ export async function POST(request) {
   const refreshedToken = createSessionToken({ email: updated.email, role: 'admin' });
   (await cookies()).set(SESSION_COOKIE, refreshedToken, getSessionCookieOptions());
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({
+    ok: true,
+    store,
+    updatedAt: updated.updatedAt,
+  });
 }

@@ -34,18 +34,40 @@ export default function LoginForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="form-stack">
+    <form onSubmit={handleSubmit} className="form-stack auth-form-stack">
       <label>
         관리자 이메일
-        <input value={email} onChange={(event) => setEmail(event.target.value)} type="email" required />
+        <input
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+          type="email"
+          placeholder="jason-ko@jiuc.or.kr"
+          required
+        />
       </label>
       <label>
         비밀번호
-        <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" required />
+        <input
+          value={password}
+          onChange={(event) => setPassword(event.target.value)}
+          type="password"
+          placeholder="관리자 비밀번호를 입력하세요"
+          required
+        />
       </label>
+      <div className="login-hint-grid">
+        <div className="mini-note">
+          <strong>관리자 전용</strong>
+          <span>세션 쿠키 기반 인증</span>
+        </div>
+        <div className="mini-note">
+          <strong>브리프 즉시 접근</strong>
+          <span>로그인 후 카드뉴스와 원문 링크 확인</span>
+        </div>
+      </div>
       {error ? <p className="error-text">{error}</p> : null}
       <button className="primary-btn" type="submit" disabled={loading}>
-        {loading ? '접속 중...' : '로그인'}
+        {loading ? '접속 중...' : '대시보드 열기'}
       </button>
     </form>
   );
