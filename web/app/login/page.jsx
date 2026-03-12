@@ -13,16 +13,18 @@ export default async function LoginPage() {
 
   return (
     <main className="page-shell">
-      <section className="auth-grid">
-        <div className="panel auth-hero">
-          <div className="hero-kicker">Knowledge Warehouse</div>
-          <h1 className="hero-title hero-title-wide">정책·연구 보고서 관리 대시보드</h1>
-          <p className="hero-copy" style={{ marginTop: '14px' }}>
-            GitHub Actions가 수집한 최신 정책·연구 보고서를 실무형 브리프와 카드형 화면으로 재구성합니다.
-            관리자 한 명이 빠르게 핵심을 파악하고 후속 액션을 정리할 수 있도록 설계된 시스템입니다.
-          </p>
+      <div className="auth-grid">
+        <div className="auth-hero">
+          <div>
+            <div className="hero-kicker">Knowledge Warehouse</div>
+            <h1 className="hero-title hero-title-wide">정책·연구 보고서 인텔리전스</h1>
+            <p className="hero-copy" style={{ marginTop: '16px', maxWidth: '42ch' }}>
+              GitHub Actions가 매일 수집한 최신 보고서를 실무형 브리프로 재구성합니다.
+              핵심만 빠르게 파악하고 후속 액션을 정리하세요.
+            </p>
+          </div>
 
-          <div className="auth-stats" style={{ marginTop: '28px' }}>
+          <div className="auth-stats">
             <article className="metric-card accent-card">
               <p className="metric-value">5</p>
               <p className="metric-label">추적 소스</p>
@@ -37,38 +39,38 @@ export default async function LoginPage() {
             </article>
           </div>
 
-          <div className="auth-notes" style={{ marginTop: '20px' }}>
+          <div className="auth-notes">
             <article className="note-card note-card-strong">
               <p className="eyebrow">Cloud Digest</p>
-              <h3>항상 최신 브리프</h3>
-              <p>GitHub Actions가 수집을 담당해 로그인 즉시 최신 보고서를 볼 수 있습니다.</p>
+              <h3>항상 최신</h3>
+              <p>로그인 즉시 오늘의 보고서를 볼 수 있습니다.</p>
             </article>
             <article className="note-card">
               <p className="eyebrow">Decision Support</p>
               <h3>검토 시간 단축</h3>
-              <p>PDF 스니펫, 요약, 후속 액션을 한 화면에서 확인할 수 있습니다.</p>
+              <p>PDF 스니펫과 요약을 한 화면에서 확인합니다.</p>
             </article>
           </div>
         </div>
 
-        <div className="panel auth-form">
+        <div className="auth-form">
           <div className="auth-form-inner">
             <div>
               <p className="eyebrow">Admin Access</p>
-              <h2 className="section-title">관리자 로그인</h2>
-              <p className="muted" style={{ marginTop: '8px', fontSize: '0.88rem' }}>
-                초기 관리자 계정으로 접속한 뒤 비밀번호를 직접 변경할 수 있습니다.
+              <h2 className="section-title" style={{ marginTop: '8px' }}>관리자 로그인</h2>
+              <p className="muted" style={{ marginTop: '10px' }}>
+                초기 계정으로 접속 후 비밀번호를 변경할 수 있습니다.
               </p>
             </div>
             <LoginForm />
             <article className="info-card">
-              <p className="eyebrow">Secure Entry</p>
-              <h3>운영 메모</h3>
-              <p>세션 쿠키 기반으로 인증되며, 영구 저장소가 연결되면 비밀번호가 배포 환경에서도 안정적으로 유지됩니다.</p>
+              <p className="eyebrow">Security</p>
+              <h3>세션 기반 인증</h3>
+              <p>세션 쿠키로 인증되며 영구 저장소 연결 시 비밀번호가 안정적으로 유지됩니다.</p>
             </article>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   );
 }
