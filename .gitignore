@@ -8,3 +8,8 @@
 !report_digest/output/**
 !report_digest/state/
 !report_digest/state/**
+
+# Ignore web build artifacts and secrets
+web/node_modules/
+web/.next/
+web/.env.local

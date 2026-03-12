@@ -33,11 +33,14 @@ jobs:
           REPORT_DIGEST_CONFIG: report_digest/config.github.json
         run: python report_digest/main.py
 
+      - name: Publish web assets
+        run: python report_digest/publish_web_assets.py
+
       - name: Commit refreshed outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report_digest/output report_digest/state
+          git add report_digest/output report_digest/state web/public/generated
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

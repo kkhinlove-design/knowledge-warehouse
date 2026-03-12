@@ -596,6 +596,9 @@ def write_outputs(config: dict, markdown: str, html: str, items: list[ReportItem
     latest_json_path = output_dir / 'latest-report-items.json'
     summary_path = output_dir / 'latest-run-summary.json'
 
+    publish_web_dir = str(config.get('publish_web_dir', '')).strip()
+    web_output_dir = (BASE_DIR / publish_web_dir).resolve() if publish_web_dir else None
+
     json_payload = json.dumps([asdict(item) for item in items], ensure_ascii=False, indent=2)
     markdown_path.write_text(markdown, encoding='utf-8')
     html_path.write_text(html, encoding='utf-8')
@@ -603,19 +606,24 @@ def write_outputs(config: dict, markdown: str, html: str, items: list[ReportItem
     latest_markdown_path.write_text(markdown, encoding='utf-8')
     latest_html_path.write_text(html, encoding='utf-8')
     latest_json_path.write_text(json_payload, encoding='utf-8')
-    summary_path.write_text(
-        json.dumps(
-            {
-                'generated_at': datetime.now().isoformat(timespec='seconds'),
-                'item_count': len(items),
-                'pdf_backed_count': sum(1 for item in items if item.extraction_mode == 'pdf'),
-                'sources': [asdict(status) for status in statuses],
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding='utf-8',
+    summary_payload = json.dumps(
+        {
+            'generated_at': datetime.now().isoformat(timespec='seconds'),
+            'item_count': len(items),
+            'pdf_backed_count': sum(1 for item in items if item.extraction_mode == 'pdf'),
+            'sources': [asdict(status) for status in statuses],
+        },
+        ensure_ascii=False,
+        indent=2,
     )
+    summary_path.write_text(summary_payload, encoding='utf-8')
+
+    if web_output_dir:
+        ensure_dirs(web_output_dir)
+        (web_output_dir / 'latest-policy-brief.md').write_text(markdown, encoding='utf-8')
+        (web_output_dir / 'latest-policy-cards.html').write_text(html, encoding='utf-8')
+        (web_output_dir / 'latest-report-items.json').write_text(json_payload, encoding='utf-8')
+        (web_output_dir / 'latest-run-summary.json').write_text(summary_payload, encoding='utf-8')
 
     obsidian_markdown_path: Path | None = None
     obsidian_vault = str(config.get('obsidian_vault', '')).strip()

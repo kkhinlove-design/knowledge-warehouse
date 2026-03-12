@@ -1,4 +1,4 @@
-﻿{
+{
   "obsidian_vault": "",
   "obsidian_subdir": "",
   "workspace_output_dir": "output",
@@ -30,5 +30,6 @@
       "name": "전북연구원 포커스 J",
       "url": "https://www.jthink.kr/jthink/2022/inner.php?sMenu=B4000"
     }
-  ]
+  ],
+  "publish_web_dir": "..\\web\\public\\generated"
 }
