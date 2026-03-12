@@ -1,0 +1,10 @@
+﻿# Ignore unrelated local office files
+*.xlsx
+*.xls
+*.pdf
+
+# Keep report outputs and state for cloud sync
+!report_digest/output/
+!report_digest/output/**
+!report_digest/state/
+!report_digest/state/**

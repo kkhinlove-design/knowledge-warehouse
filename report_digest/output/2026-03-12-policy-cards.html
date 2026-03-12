@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>정책·연구 보고서 카드 브리프</title>
+  <style>
+    :root {
+      --paper: #fffaf2;
+      --ink: #1f2a2a;
+      --muted: #5e6b6b;
+      --accent: #ba4a00;
+      --accent-soft: #f4c9a8;
+      --line: rgba(31, 42, 42, 0.12);
+      --shadow: 0 20px 60px rgba(64, 46, 24, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Apple SD Gothic Neo", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at top left, rgba(186, 74, 0, 0.14), transparent 30%), linear-gradient(180deg, #f8f1e7 0%, #efe5d7 100%);
+    }
+    .wrap { width: min(1180px, calc(100vw - 32px)); margin: 24px auto 72px; display: grid; gap: 24px; }
+    .page { min-height: 88vh; border: 1px solid var(--line); background: var(--paper); border-radius: 28px; box-shadow: var(--shadow); padding: 32px; position: relative; overflow: hidden; }
+    .page::after { content: ''; position: absolute; inset: auto -40px -40px auto; width: 220px; height: 220px; border-radius: 50%; background: radial-gradient(circle, rgba(186,74,0,0.14), transparent 70%); }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 12px; color: var(--accent); margin: 0 0 10px; font-weight: 700; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(34px, 5vw, 62px); line-height: 0.95; max-width: 10ch; margin-bottom: 18px; }
+    h2 { font-size: clamp(28px, 4vw, 42px); margin-bottom: 14px; }
+    .lede { max-width: 58ch; font-size: 18px; line-height: 1.7; color: var(--muted); }
+    ul { margin: 20px 0 0; padding-left: 20px; line-height: 1.8; font-size: 18px; }
+    .meta { margin-top: 20px; color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+    .mini-card, .action-card { border: 1px solid var(--line); border-radius: 22px; padding: 18px; background: rgba(255,255,255,0.66); backdrop-filter: blur(8px); }
+    .mini-card h3, .action-card h3 { font-size: 22px; line-height: 1.35; margin-bottom: 12px; }
+    .mini-card p, .action-card p { color: var(--muted); line-height: 1.65; margin-bottom: 12px; }
+    a { color: var(--accent); text-decoration: none; font-weight: 700; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .tag { padding: 10px 14px; border-radius: 999px; background: var(--accent-soft); font-size: 14px; font-weight: 700; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .page { min-height: auto; padding: 24px; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="page">
+      <p class="eyebrow">Page 1 · Executive Brief</p>
+      <h1>정책·연구 보고서 실무형 카드 브리프</h1>
+      <p class="lede">다섯 개 사이트의 최신 문서를 추적해, 실무자가 빠르게 볼 수 있는 카드 형식으로 압축했습니다. 가능한 경우 PDF 원문 초반부까지 읽어 제목 기반 요약보다 한 단계 깊게 정리했습니다.</p>
+      <ul><li>이번 업데이트에서 가장 많이 보인 주제는 `AI·디지털`이며, 총 4건이 감지되었습니다.</li>
+<li>보조 흐름은 `고용·교육`로, 관련 문서 4건이 뒤따랐습니다.</li>
+<li>가장 활발한 공급원은 `대한민국 정책브리핑`로, 이번 회차에 5건이 반영되었습니다.</li>
+<li>이 중 10건은 PDF 원문 초반부까지 읽어 스니펫을 붙였습니다.</li></ul>
+      <div class="tag-row">
+        <span class="tag">총 20건 수집</span>
+        <span class="tag">신규 0건</span>
+        <span class="tag">생성 시각 2026-03-12 11:41:55</span>
+      </div>
+      <p class="meta">PRISM와 일부 기관 파일은 차단 정책이나 보안문자 때문에 후속 보강이 필요할 수 있습니다.</p>
+    </section>
+    <section class="page">
+      <p class="eyebrow">Page 2 · What Changed</p>
+      <h2>이번 회차에서 먼저 볼 만한 문서</h2>
+      <p class="lede">원문 접근 가능 여부와 실무 적용성을 함께 고려해 우선 확인 대상을 묶었습니다.</p>
+      <div class="grid">
+        <article class="mini-card">
+          <p class="eyebrow">대한민국 정책브리핑 · 경제·통계 · pdf</p>
+          <h3>2026년 2월 소비자물가동향</h3>
+          <p>□ 현재 소비자물가지수의 기준연도는 2020년, 가중치의 기준연도는 / ○ 따라서 품목별 지수와 가중치를 이용하여 상위 단계 지수 계산한 결과와 / 공표하는 지수는 일치하지 않음에 유의하여 주시기 바랍니다.</p>
+          <a href="https://www.korea.kr/archive/expDocView.do?docId=41588&group=S" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        
+
+        <article class="mini-card">
+          <p class="eyebrow">대한민국 정책브리핑 · AI·디지털 · pdf</p>
+          <h3>2026년 1월 온라인쇼핑동향</h3>
+          <p>□ 온라인쇼핑 거래액은 ‘PC기반 인터넷쇼핑 거래액’과 ‘모바일기반 / 인터넷쇼핑 거래액’을 포괄합니다. / □ 이 통계는 온라인쇼핑 거래액을 경상금액으로 작성하였습니다.</p>
+          <a href="https://www.korea.kr/archive/expDocView.do?docId=41587&group=S" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        
+
+        <article class="mini-card">
+          <p class="eyebrow">대한민국 정책브리핑 · 인구·사회 · pdf</p>
+          <h3>국민 삶의 질 2025 보고서</h3>
+          <p>Quality of Life Indicators in Korea 2025 / 발간사 “국가의 복지는 국민소득이라는 단일 측정치로부터 제대로 추론될 수 없다”는 사이먼 쿠 / 즈네츠(Simon Kuznets)의 지적처럼, GDP 중심의 경제지표는 사회 발전의 복합적인 측면</p>
+          <a href="https://www.korea.kr/archive/expDocView.do?docId=41586&group=S" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        
+
+        <article class="mini-card">
+          <p class="eyebrow">대한민국 정책브리핑 · 산업·통상 · pdf</p>
+          <h3>2026년 1월 산업활동동향</h3>
+          <p>광업제조업동향조사, 서비스업동향조사, 건설경기동향조사, 기계수주동향조사, 경기종합지수, / 설비투자지수, 전산업생산지수 / □「산업활동동향」보도자료에 수록한 지표들은 다음과 같습니다.</p>
+          <a href="https://www.korea.kr/archive/expDocView.do?docId=41590&group=S" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        
+
+        <article class="mini-card">
+          <p class="eyebrow">대한민국 정책브리핑 · 법·행정 · pdf</p>
+          <h3>모두의 정책 K-희망사다리 2026</h3>
+          <p>●2026년 신규 민생지원 제도 ●지방우대 패키지 / ●내게 필요한 서비스 키워드로 바로 찾기 / ●신청해야 받는 숨은 정부지원금 찾기</p>
+          <a href="https://www.korea.kr/archive/expDocView.do?docId=41585&group=S" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        
+
+        <article class="mini-card">
+          <p class="eyebrow">G-Zone · 산업·통상 · pdf</p>
+          <h3>(2024년 기준) 콘텐츠 산업조사 : 승인통계용·2025년 실시</h3>
+          <p>● 2024년 기준 콘텐츠산업조사는 국내 콘텐츠산업을 영위하는 사업체 중 18,678개 / 사업체를 대상으로 2025년 10월부터 2025년 11월까지 실시한 통계 조사 결과임. / ● 본 조사의 기준시점은 2024년 12월 31일임.</p>
+          <a href="http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260365517&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N" target="_blank" rel="noreferrer">원문 보기</a>
+        </article>
+        </div>
+    </section>
+    <section class="page">
+      <p class="eyebrow">Page 3 · Action Notes</p>
+      <h2>읽은 뒤 바로 붙일 실무 메모</h2>
+      <p class="lede">문서 전체를 다 읽기 전에 바로 써먹을 수 있도록 후속 조치 관점으로 다시 정리했습니다.</p>
+      <div class="grid">
+        <article class="action-card">
+          <p class="eyebrow">경제·통계</p>
+          <h3>2026년 2월 소비자물가동향</h3>
+          <p>월간 지표판이나 회의 자료에 반영할 수치·추세 후보를 체크해두세요. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        
+
+        <article class="action-card">
+          <p class="eyebrow">AI·디지털</p>
+          <h3>2026년 1월 온라인쇼핑동향</h3>
+          <p>관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        
+
+        <article class="action-card">
+          <p class="eyebrow">인구·사회</p>
+          <h3>국민 삶의 질 2025 보고서</h3>
+          <p>수요층 변화와 대상자 세분화 관점에서 후속 검토 항목을 붙여두세요. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        
+
+        <article class="action-card">
+          <p class="eyebrow">산업·통상</p>
+          <h3>2026년 1월 산업활동동향</h3>
+          <p>산업별 영향 부문과 외부 협력 필요성을 체크리스트로 정리해두는 편이 좋습니다. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        
+
+        <article class="action-card">
+          <p class="eyebrow">법·행정</p>
+          <h3>모두의 정책 K-희망사다리 2026</h3>
+          <p>내부 절차나 기준 변경이 필요한지 검토 포인트를 짧게 남겨두세요. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        
+
+        <article class="action-card">
+          <p class="eyebrow">산업·통상</p>
+          <h3>(2024년 기준) 콘텐츠 산업조사 : 승인통계용·2025년 실시</h3>
+          <p>산업별 영향 부문과 외부 협력 필요성을 체크리스트로 정리해두는 편이 좋습니다. 원문 기반으로 읽을 가치가 높습니다.</p>
+        </article>
+        </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-12T11:42:22",
+  "item_count": 20,
+  "pdf_backed_count": 10,
+  "sources": [
+    {
+      "source_id": "korea_briefing",
+      "source_name": "대한민국 정책브리핑",
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
+    },
+    {
+      "source_id": "gzone",
+      "source_name": "G-Zone",
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
+    },
+    {
+      "source_id": "prism",
+      "source_name": "PRISM",
+      "status": "OK",
+      "note": "접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.",
+      "item_count": 0
+    },
+    {
+      "source_id": "krivet",
+      "source_name": "KRIVET",
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
+    },
+    {
+      "source_id": "jthink",
+      "source_name": "전북연구원 포커스 J",
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
+    }
+  ]
+}

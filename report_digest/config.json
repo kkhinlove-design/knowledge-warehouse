@@ -1,0 +1,34 @@
+﻿{
+  "obsidian_vault": "G:\\내 드라이브\\00. 개인\\70. 자료\\00.obsidean\\jason-obsi\\knowledge warehouse",
+  "obsidian_subdir": "Policy Briefs\\Weekly Digest",
+  "workspace_output_dir": "output",
+  "state_dir": "state",
+  "max_items_per_site": 5,
+  "sites": [
+    {
+      "id": "korea_briefing",
+      "name": "대한민국 정책브리핑",
+      "url": "https://www.korea.kr/archive/expDocMainList.do"
+    },
+    {
+      "id": "gzone",
+      "name": "G-Zone",
+      "url": "http://gzone.kr/gzone/gZoneMain.do"
+    },
+    {
+      "id": "prism",
+      "name": "PRISM",
+      "url": "https://www.prism.go.kr/homepage/asmt/list"
+    },
+    {
+      "id": "krivet",
+      "name": "KRIVET",
+      "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12"
+    },
+    {
+      "id": "jthink",
+      "name": "전북연구원 포커스 J",
+      "url": "https://www.jthink.kr/jthink/2022/inner.php?sMenu=B4000"
+    }
+  ]
+}
