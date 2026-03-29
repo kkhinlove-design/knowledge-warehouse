@@ -1,13 +1,13 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-03-28 23:21:32
+generated_at: 2026-03-29 23:22:52
 style: practical
 source_count: 5
 item_count: 10
 new_item_count: 0
 ---
 
-# 정책·연구 보고서 브리프 (2026-03-28)
+# 정책·연구 보고서 브리프 (2026-03-29)
 
 ## 한눈에 보기
 - 이번 업데이트에서 가장 많이 보인 주제는 `고용·교육`이며, 총 3건이 감지되었습니다.
@@ -15,7 +15,7 @@ new_item_count: 0
 - 가장 활발한 공급원은 `KRIVET`로, 이번 회차에 5건이 반영되었습니다.
 
 ## 수집 상태
-- `대한민국 정책브리핑`: WARN (0건) - ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+- `대한민국 정책브리핑`: WARN (0건) - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 - `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by NameResolutionError("HTTPConnection(host='gzone.kr', port=80): Failed to resolve 'gzone.kr' ([Errno -3] Temporary failure in name resolution)"))
 - `PRISM`: OK (0건) - 접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.
 - `KRIVET`: OK (5건) - 정상 수집
