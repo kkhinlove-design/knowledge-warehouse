@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T23:26:02",
-  "item_count": 10,
+  "generated_at": "2026-04-13T23:36:19",
+  "item_count": 5,
   "pdf_backed_count": 0,
   "sources": [
     {
@@ -14,7 +14,7 @@
       "source_id": "gzone",
       "source_name": "G-Zone",
       "status": "WARN",
-      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7ffb38f99190>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fe46e119550>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
@@ -27,9 +27,9 @@
     {
       "source_id": "krivet",
       "source_name": "KRIVET",
-      "status": "OK",
-      "note": "정상 수집",
-      "item_count": 5
+      "status": "WARN",
+      "note": "HTTPSConnectionPool(host='www.krivet.re.kr', port=443): Max retries exceeded with url: /kor/sub.do?menuSn=12 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.krivet.re.kr', port=443) at 0x7fe46e1fad80>, 'Connection to www.krivet.re.kr timed out. (connect timeout=30)'))",
+      "item_count": 0
     },
     {
       "source_id": "jthink",
