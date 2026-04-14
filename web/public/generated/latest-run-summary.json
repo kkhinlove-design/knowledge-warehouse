@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-13T23:36:19",
-  "item_count": 5,
+  "generated_at": "2026-04-14T23:35:43",
+  "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
     {
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
       "status": "WARN",
-      "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "note": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "item_count": 0
     },
     {
       "source_id": "gzone",
       "source_name": "G-Zone",
       "status": "WARN",
-      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fe46e119550>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7eff5ea82090>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
@@ -27,9 +27,9 @@
     {
       "source_id": "krivet",
       "source_name": "KRIVET",
-      "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.krivet.re.kr', port=443): Max retries exceeded with url: /kor/sub.do?menuSn=12 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.krivet.re.kr', port=443) at 0x7fe46e1fad80>, 'Connection to www.krivet.re.kr timed out. (connect timeout=30)'))",
-      "item_count": 0
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
     },
     {
       "source_id": "jthink",
