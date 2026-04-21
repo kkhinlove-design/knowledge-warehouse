@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T23:35:13",
+  "generated_at": "2026-04-21T23:28:53",
   "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
@@ -14,7 +14,7 @@
       "source_id": "gzone",
       "source_name": "G-Zone",
       "status": "WARN",
-      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fd2e88ffd70>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7f6d7c66c9e0>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
