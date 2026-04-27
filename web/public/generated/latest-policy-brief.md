@@ -1,13 +1,13 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-04-26 23:30:00
+generated_at: 2026-04-27 23:42:38
 style: practical
 source_count: 5
 item_count: 10
 new_item_count: 0
 ---
 
-# 정책·연구 보고서 브리프 (2026-04-26)
+# 정책·연구 보고서 브리프 (2026-04-27)
 
 ## 한눈에 보기
 - 이번 업데이트에서 가장 많이 보인 주제는 `기타 정책`이며, 총 2건이 감지되었습니다.
@@ -16,7 +16,7 @@ new_item_count: 0
 
 ## 수집 상태
 - `대한민국 정책브리핑`: WARN (0건) - ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-- `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fafb0934770>, 'Connection to gzone.kr timed out. (connect timeout=30)'))
+- `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7f6eb82b8110>, 'Connection to gzone.kr timed out. (connect timeout=30)'))
 - `PRISM`: OK (0건) - 접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.
 - `KRIVET`: OK (5건) - 정상 수집
 - `전북연구원 포커스 J`: OK (5건) - 정상 수집
