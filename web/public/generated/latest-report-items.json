@@ -2,15 +2,15 @@
   {
     "source_id": "gzone",
     "source_name": "G-Zone",
-    "title": "「데이터로 읽는 우리 교육」2026년 4호 : 학교알리미를 활용한 학교 내신 평가 대비",
-    "url": "http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260368968&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N",
-    "organization": "교육부한국교욱개발원",
-    "snippet": "데이터로 읽는 2026 Vol.04 / 발행일 2026. 5. 3. 발행처 교육부·한국교육개발원 / 편집 한국교육개발원 교육통계센터",
+    "title": "K-공감 : 정책주간지 No.853(2026년05월04일~05월10일)",
+    "url": "http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260369011&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N",
+    "organization": "문화체육관광부",
+    "snippet": "아이디어만 있으면 창업! 국가창업시대 / gonggam.korea.kr / 함께 달리면 삶이 달라진다! 러닝크루 열풍",
     "published_at": "",
-    "topic": "AI·디지털",
-    "why_it_matters": "디지털 전환, 인력 재설계, 데이터 활용 방향에 직접 연결될 가능성이 큽니다.",
-    "action_hint": "관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요. 원문 기반으로 읽을 가치가 높습니다.",
-    "pdf_url": "http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260368968&serviceCd=4",
+    "topic": "법·행정",
+    "why_it_matters": "제도 변경과 집행 기준 변화가 실무 절차에 영향을 줄 수 있습니다.",
+    "action_hint": "내부 절차나 기준 변경이 필요한지 검토 포인트를 짧게 남겨두세요. 원문 기반으로 읽을 가치가 높습니다.",
+    "pdf_url": "http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260369011&serviceCd=4",
     "extraction_mode": "pdf"
   },
   {
@@ -47,13 +47,13 @@
     "title": "천연수소(natural hydrogen)의 잠재성 분석과 정책적 시사점",
     "url": "http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260368969&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N",
     "organization": "에너지경제연구원",
-    "snippet": "울산광역시 중구 종가로 405-11 TEL I 052. 714. 2114 ZIP I 44543 / www.keei.re.kr / 천연수소(natural hydrogen)의",
+    "snippet": "",
     "published_at": "",
     "topic": "법·행정",
-    "why_it_matters": "원문 초반에서 확인된 핵심은 `울산광역시 중구 종가로 405-11 TEL I 052. 714. 2114 ZIP I 44543`이며, 실무 판단의 1차 근거로 활용할 수 있습니다.",
-    "action_hint": "내부 절차나 기준 변경이 필요한지 검토 포인트를 짧게 남겨두세요. 원문 기반으로 읽을 가치가 높습니다.",
+    "why_it_matters": "제도 변경과 집행 기준 변화가 실무 절차에 영향을 줄 수 있습니다.",
+    "action_hint": "내부 절차나 기준 변경이 필요한지 검토 포인트를 짧게 남겨두세요.",
     "pdf_url": "http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260368969&serviceCd=4",
-    "extraction_mode": "pdf"
+    "extraction_mode": "detail"
   },
   {
     "source_id": "gzone",
