@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T23:56:31",
-  "item_count": 10,
-  "pdf_backed_count": 0,
+  "generated_at": "2026-05-26T23:58:26",
+  "item_count": 15,
+  "pdf_backed_count": 3,
   "sources": [
     {
       "source_id": "korea_briefing",
@@ -13,9 +13,9 @@
     {
       "source_id": "gzone",
       "source_name": "G-Zone",
-      "status": "WARN",
-      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7f8c130d5d00>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
-      "item_count": 0
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
     },
     {
       "source_id": "prism",
