@@ -1,13 +1,13 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-06-15 00:00:48
+generated_at: 2026-06-16 00:22:39
 style: practical
 source_count: 5
 item_count: 10
 new_item_count: 0
 ---
 
-# 정책·연구 보고서 브리프 (2026-06-15)
+# 정책·연구 보고서 브리프 (2026-06-16)
 
 ## 한눈에 보기
 - 이번 업데이트에서 가장 많이 보인 주제는 `기타 정책`이며, 총 3건이 감지되었습니다.
@@ -15,9 +15,9 @@ new_item_count: 0
 - 가장 활발한 공급원은 `KRIVET`로, 이번 회차에 5건이 반영되었습니다.
 
 ## 수집 상태
-- `대한민국 정책브리핑`: WARN (0건) - HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7fe20b85efc0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))
-- `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fe20a2aa9c0>, 'Connection to gzone.kr timed out. (connect timeout=30)'))
-- `PRISM`: WARN (0건) - HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7fe20a2aaf00>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))
+- `대한민국 정책브리핑`: WARN (0건) - HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f50009f4ec0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))
+- `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7f4fff0e2c00>, 'Connection to gzone.kr timed out. (connect timeout=30)'))
+- `PRISM`: WARN (0건) - HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7f4fff0e30e0>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))
 - `KRIVET`: OK (5건) - 정상 수집
 - `전북연구원 포커스 J`: OK (5건) - 정상 수집
 

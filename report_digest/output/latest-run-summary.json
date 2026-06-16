@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T00:02:28",
+  "generated_at": "2026-06-16T00:24:24",
   "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
@@ -7,21 +7,21 @@
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
       "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7fe20b85efc0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f50009f4ec0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
       "source_id": "gzone",
       "source_name": "G-Zone",
       "status": "WARN",
-      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7fe20a2aa9c0>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by ConnectTimeoutError(<HTTPConnection(host='gzone.kr', port=80) at 0x7f4fff0e2c00>, 'Connection to gzone.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
       "source_id": "prism",
       "source_name": "PRISM",
       "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7fe20a2aaf00>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7f4fff0e30e0>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
