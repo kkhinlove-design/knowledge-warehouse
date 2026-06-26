@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T00:04:51",
+  "generated_at": "2026-06-26T23:55:29",
   "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
@@ -7,7 +7,7 @@
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
       "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f0b9f3f90a0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f95469afc50>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
@@ -21,7 +21,7 @@
       "source_id": "prism",
       "source_name": "PRISM",
       "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7f0b9eff4920>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))",
+      "note": "HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7f95469e4e90>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))",
       "item_count": 0
     },
     {
