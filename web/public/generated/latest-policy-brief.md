@@ -1,13 +1,13 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-07-09 23:57:19
+generated_at: 2026-07-10 23:47:41
 style: practical
 source_count: 5
 item_count: 10
 new_item_count: 0
 ---
 
-# 정책·연구 보고서 브리프 (2026-07-09)
+# 정책·연구 보고서 브리프 (2026-07-10)
 
 ## 한눈에 보기
 - 이번 업데이트에서 가장 많이 보인 주제는 `기타 정책`이며, 총 3건이 감지되었습니다.
@@ -15,9 +15,9 @@ new_item_count: 0
 - 가장 활발한 공급원은 `KRIVET`로, 이번 회차에 5건이 반영되었습니다.
 
 ## 수집 상태
-- `대한민국 정책브리핑`: WARN (0건) - HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7ff0312bcec0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))
+- `대한민국 정책브리핑`: WARN (0건) - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 - `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by NameResolutionError("HTTPConnection(host='gzone.kr', port=80): Failed to resolve 'gzone.kr' ([Errno -3] Temporary failure in name resolution)"))
-- `PRISM`: WARN (0건) - HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7ff02f5ca420>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))
+- `PRISM`: OK (0건) - 접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.
 - `KRIVET`: OK (5건) - 정상 수집
 - `전북연구원 포커스 J`: OK (5건) - 정상 수집
 
