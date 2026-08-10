@@ -2,6 +2,20 @@
   {
     "source_id": "krivet",
     "source_name": "KRIVET",
+    "title": "민간직업훈련기관 유형 및 실태 분석",
+    "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000853",
+    "organization": "한국직업능력연구원",
+    "snippet": "",
+    "published_at": "",
+    "topic": "고용·교육",
+    "why_it_matters": "인재 확보와 역량개발 정책, 교육훈련 투자 우선순위를 다시 보게 합니다.",
+    "action_hint": "교육훈련, 채용, 역량진단과 연결되는 실행 항목을 1차로 분류해두세요.",
+    "pdf_url": "",
+    "extraction_mode": "title"
+  },
+  {
+    "source_id": "krivet",
+    "source_name": "KRIVET",
     "title": "2025 KRIVET 연차보고서",
     "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000835",
     "organization": "한국직업능력연구원",
@@ -52,20 +66,6 @@
     "topic": "경제·통계",
     "why_it_matters": "현황 점검과 우선순위 판단을 위한 경기·시장 체온계 역할을 합니다.",
     "action_hint": "월간 지표판이나 회의 자료에 반영할 수치·추세 후보를 체크해두세요.",
-    "pdf_url": "",
-    "extraction_mode": "title"
-  },
-  {
-    "source_id": "krivet",
-    "source_name": "KRIVET",
-    "title": "국제성인역량조사(PIAAC)의 측정 타당성과 한국 사회에서의 활용 쟁점",
-    "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000813",
-    "organization": "한국직업능력연구원",
-    "snippet": "",
-    "published_at": "",
-    "topic": "인구·사회",
-    "why_it_matters": "중장기 수요 변화와 정책 타깃 재설계에 필요한 기초 지표로 볼 수 있습니다.",
-    "action_hint": "수요층 변화와 대상자 세분화 관점에서 후속 검토 항목을 붙여두세요.",
     "pdf_url": "",
     "extraction_mode": "title"
   },
