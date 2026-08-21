@@ -2,6 +2,20 @@
   {
     "source_id": "krivet",
     "source_name": "KRIVET",
+    "title": "과학기술정책연구원·한국직업능력연구원·한국공학교육학회 공동정책포럼 자료집",
+    "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000869",
+    "organization": "한국직업능력연구원",
+    "snippet": "",
+    "published_at": "",
+    "topic": "고용·교육",
+    "why_it_matters": "인재 확보와 역량개발 정책, 교육훈련 투자 우선순위를 다시 보게 합니다.",
+    "action_hint": "교육훈련, 채용, 역량진단과 연결되는 실행 항목을 1차로 분류해두세요.",
+    "pdf_url": "",
+    "extraction_mode": "title"
+  },
+  {
+    "source_id": "krivet",
+    "source_name": "KRIVET",
     "title": "민간직업훈련기관 유형 및 실태 분석",
     "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000853",
     "organization": "한국직업능력연구원",
@@ -52,20 +66,6 @@
     "topic": "AI·디지털",
     "why_it_matters": "디지털 전환, 인력 재설계, 데이터 활용 방향에 직접 연결될 가능성이 큽니다.",
     "action_hint": "관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요.",
-    "pdf_url": "",
-    "extraction_mode": "title"
-  },
-  {
-    "source_id": "krivet",
-    "source_name": "KRIVET",
-    "title": "ICT 전문인력 수급 실태조사 및 전망(2025) 통계보고서",
-    "url": "https://www.krivet.re.kr/kor/sub.do?menuSn=12&pstNo=PB0000000762",
-    "organization": "한국직업능력연구원",
-    "snippet": "",
-    "published_at": "",
-    "topic": "경제·통계",
-    "why_it_matters": "현황 점검과 우선순위 판단을 위한 경기·시장 체온계 역할을 합니다.",
-    "action_hint": "월간 지표판이나 회의 자료에 반영할 수치·추세 후보를 체크해두세요.",
     "pdf_url": "",
     "extraction_mode": "title"
   },
