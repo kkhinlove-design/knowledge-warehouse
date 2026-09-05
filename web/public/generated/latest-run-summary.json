@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T00:32:48",
-  "item_count": 15,
+  "generated_at": "2026-09-05T00:29:27",
+  "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
     {
@@ -34,9 +34,9 @@
     {
       "source_id": "jthink",
       "source_name": "전북연구원 포커스 J",
-      "status": "OK",
-      "note": "정상 수집",
-      "item_count": 5
+      "status": "WARN",
+      "note": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "item_count": 0
     }
   ]
 }
