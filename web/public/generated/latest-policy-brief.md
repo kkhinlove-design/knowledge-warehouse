@@ -1,18 +1,18 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-09-14 00:31:31
+generated_at: 2026-09-15 01:03:20
 style: practical
 source_count: 5
 item_count: 15
-new_item_count: 4
+new_item_count: 5
 ---
 
-# 정책·연구 보고서 브리프 (2026-09-14)
+# 정책·연구 보고서 브리프 (2026-09-15)
 
 ## 한눈에 보기
-- 이번 업데이트에서 가장 많이 보인 주제는 `기타 정책`이며, 총 2건이 감지되었습니다.
-- 보조 흐름은 `고용·교육`로, 관련 문서 1건이 뒤따랐습니다.
-- 가장 활발한 공급원은 `G-Zone`로, 이번 회차에 4건이 반영되었습니다.
+- 이번 업데이트에서 가장 많이 보인 주제는 `AI·디지털`이며, 총 3건이 감지되었습니다.
+- 보조 흐름은 `산업·통상`로, 관련 문서 1건이 뒤따랐습니다.
+- 가장 활발한 공급원은 `G-Zone`로, 이번 회차에 5건이 반영되었습니다.
 
 ## 수집 상태
 - `대한민국 정책브리핑`: WARN (0건) - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
@@ -22,43 +22,52 @@ new_item_count: 4
 - `전북연구원 포커스 J`: OK (5건) - 정상 수집
 
 ## 오늘의 핵심 업데이트
-### 수업 및 평가 역량 제고를 위한 시뮬레이션 기반 교사 역량 진단 시스템 구축(Ⅰ)
-- 출처: `G-Zone` / 한국교육과정평가원
-- 주제: `기타 정책`
+### 2025년 국내외 인공지능 산업 동향 연구
+- 출처: `G-Zone` / 소프트웨어정책연구소
+- 주제: `산업·통상`
 - 요약 방식: `detail`
-- 왜 중요한가: '수업 및 평가 역량 제고를 위한 시뮬레이션 기반 교사 역량 진단 시스템 구축(Ⅰ)'는 최근 정책 흐름을 빠르게 파악하는 참고 문서로 볼 수 있습니다.
-- 실무 메모: 핵심 문장과 후속 확인 질문 2~3개만 남겨도 재활용성이 높습니다.
-- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378080&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
-- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378080&serviceCd=4
+- 왜 중요한가: 산업 구조 변화와 공급망 대응, 투자 판단에 참고할 신호를 줍니다.
+- 실무 메모: 산업별 영향 부문과 외부 협력 필요성을 체크리스트로 정리해두는 편이 좋습니다.
+- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378112&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
+- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378112&serviceCd=4
 
-### 2025년도 공무원 교육훈련기관 종합진단
-- 출처: `G-Zone` / 인사혁신처
-- 주제: `고용·교육`
+### SW 중심사회 2026년 9월호
+- 출처: `G-Zone` / 소프트웨어정책연구소
+- 주제: `인구·사회`
 - 요약 방식: `detail`
-- 왜 중요한가: 인재 확보와 역량개발 정책, 교육훈련 투자 우선순위를 다시 보게 합니다.
-- 실무 메모: 교육훈련, 채용, 역량진단과 연결되는 실행 항목을 1차로 분류해두세요.
-- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260377793&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
-- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260377793&serviceCd=4
+- 왜 중요한가: 중장기 수요 변화와 정책 타깃 재설계에 필요한 기초 지표로 볼 수 있습니다.
+- 실무 메모: 수요층 변화와 대상자 세분화 관점에서 후속 검토 항목을 붙여두세요.
+- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378106&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
+- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378106&serviceCd=4
 
-### 고혈압당뇨병 등록관리사업 운영 체계 개편 연구
-- 출처: `G-Zone` / 질병관리청
-- 주제: `기타 정책`
+### 해외 거주 디지털 인재 확보 및 활용을 위한 정책 방안 연구
+- 출처: `G-Zone` / 소프트웨어정책연구소
+- 주제: `AI·디지털`
 - 요약 방식: `detail`
-- 왜 중요한가: '고혈압당뇨병 등록관리사업 운영 체계 개편 연구'는 최근 정책 흐름을 빠르게 파악하는 참고 문서로 볼 수 있습니다.
-- 실무 메모: 핵심 문장과 후속 확인 질문 2~3개만 남겨도 재활용성이 높습니다.
-- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260377820&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
-- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260377820&serviceCd=4
+- 왜 중요한가: 디지털 전환, 인력 재설계, 데이터 활용 방향에 직접 연결될 가능성이 큽니다.
+- 실무 메모: 관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요.
+- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378108&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
+- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378108&serviceCd=4
 
-### 국민연금 추후납부제도의 바람직한 개선방안 : 편법적 수급권 확보 수단으로 악용되는 것을 어떻게 막을 것인가
-- 출처: `G-Zone` / 국회입법조사처
-- 주제: `법·행정`
+### 기업가형 AI 인재 육성 전략 연구
+- 출처: `G-Zone` / 소프트웨어정책연구소
+- 주제: `AI·디지털`
 - 요약 방식: `detail`
-- 왜 중요한가: 제도 변경과 집행 기준 변화가 실무 절차에 영향을 줄 수 있습니다.
-- 실무 메모: 내부 절차나 기준 변경이 필요한지 검토 포인트를 짧게 남겨두세요.
-- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260377809&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
-- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260377809&serviceCd=4
+- 왜 중요한가: 디지털 전환, 인력 재설계, 데이터 활용 방향에 직접 연결될 가능성이 큽니다.
+- 실무 메모: 관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요.
+- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378107&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
+- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378107&serviceCd=4
+
+### 데이터 기반 가상융합(XR) 기술 콘텐츠 글로벌 동향 분석
+- 출처: `G-Zone` / 소프트웨어정책연구소
+- 주제: `AI·디지털`
+- 요약 방식: `detail`
+- 왜 중요한가: 디지털 전환, 인력 재설계, 데이터 활용 방향에 직접 연결될 가능성이 큽니다.
+- 실무 메모: 관련 사업, 조직 역량, 데이터 거버넌스 관점에서 적용 가능 포인트를 메모하세요.
+- 링크: http://gzone.kr/gzone/gZoneSearchDetailList.do?contentsId=PLC20260378110&subMenu=domestic&mainDivision=Y&pageIndex=1&reSearchGubun=N
+- PDF: http://gzone.kr/gzone/gZoneFileDown.do?conId=PLC20260378110&serviceCd=4
 
 ## 후속 관찰 포인트
-- `기타 정책` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
-- `고용·교육` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
-- `법·행정` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
+- `AI·디지털` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
+- `산업·통상` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
+- `인구·사회` 관련 후속 문서가 이어지는지 다음 회차에서도 추적합니다.
