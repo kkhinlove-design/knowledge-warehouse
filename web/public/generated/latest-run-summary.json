@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T01:55:46",
-  "item_count": 15,
+  "generated_at": "2026-10-13T03:16:28",
+  "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
     {
@@ -13,9 +13,9 @@
     {
       "source_id": "gzone",
       "source_name": "G-Zone",
-      "status": "OK",
-      "note": "정상 수집",
-      "item_count": 5
+      "status": "WARN",
+      "note": "HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by NameResolutionError(\"HTTPConnection(host='gzone.kr', port=80): Failed to resolve 'gzone.kr' ([Errno -3] Temporary failure in name resolution)\"))",
+      "item_count": 0
     },
     {
       "source_id": "prism",
