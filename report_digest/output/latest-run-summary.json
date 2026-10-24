@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T01:06:23",
-  "item_count": 10,
+  "generated_at": "2026-10-24T01:15:36",
+  "item_count": 5,
   "pdf_backed_count": 0,
   "sources": [
     {
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
       "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /archive/expDocMainList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f861d8217f0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))",
+      "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "item_count": 0
     },
     {
@@ -20,16 +20,16 @@
     {
       "source_id": "prism",
       "source_name": "PRISM",
-      "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.prism.go.kr', port=443): Max retries exceeded with url: /homepage/asmt/list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.prism.go.kr', port=443) at 0x7f861d716210>, 'Connection to www.prism.go.kr timed out. (connect timeout=30)'))",
+      "status": "OK",
+      "note": "접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.",
       "item_count": 0
     },
     {
       "source_id": "krivet",
       "source_name": "KRIVET",
-      "status": "OK",
-      "note": "정상 수집",
-      "item_count": 5
+      "status": "WARN",
+      "note": "HTTPSConnectionPool(host='www.krivet.re.kr', port=443): Max retries exceeded with url: /kor/sub.do?menuSn=12 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.krivet.re.kr', port=443) at 0x7f785fcc9130>, 'Connection to www.krivet.re.kr timed out. (connect timeout=30)'))",
+      "item_count": 0
     },
     {
       "source_id": "jthink",
