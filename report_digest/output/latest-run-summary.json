@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T01:15:36",
-  "item_count": 5,
+  "generated_at": "2026-10-25T00:40:49",
+  "item_count": 10,
   "pdf_backed_count": 0,
   "sources": [
     {
@@ -27,9 +27,9 @@
     {
       "source_id": "krivet",
       "source_name": "KRIVET",
-      "status": "WARN",
-      "note": "HTTPSConnectionPool(host='www.krivet.re.kr', port=443): Max retries exceeded with url: /kor/sub.do?menuSn=12 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.krivet.re.kr', port=443) at 0x7f785fcc9130>, 'Connection to www.krivet.re.kr timed out. (connect timeout=30)'))",
-      "item_count": 0
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
     },
     {
       "source_id": "jthink",
