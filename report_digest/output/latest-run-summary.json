@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-15T02:16:37",
-  "item_count": 10,
-  "pdf_backed_count": 0,
+  "generated_at": "2026-11-16T02:29:59",
+  "item_count": 15,
+  "pdf_backed_count": 3,
   "sources": [
     {
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
-      "status": "WARN",
-      "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "item_count": 0
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
     },
     {
       "source_id": "gzone",
