@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-20T03:48:10",
-  "item_count": 5,
-  "pdf_backed_count": 0,
+  "generated_at": "2026-11-21T03:39:51",
+  "item_count": 10,
+  "pdf_backed_count": 5,
   "sources": [
     {
       "source_id": "korea_briefing",
       "source_name": "대한민국 정책브리핑",
-      "status": "WARN",
-      "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "item_count": 0
+      "status": "OK",
+      "note": "정상 수집",
+      "item_count": 5
     },
     {
       "source_id": "gzone",
@@ -34,8 +34,8 @@
     {
       "source_id": "jthink",
       "source_name": "전북연구원 포커스 J",
-      "status": "WARN",
-      "note": "404 Client Error: Not Found for url: https://www.jthink.kr/jthink/2022/inner.php?sMenu=B4000",
+      "status": "OK",
+      "note": "정상 수집",
       "item_count": 0
     }
   ]
