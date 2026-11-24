@@ -1,13 +1,13 @@
 ---
 title: 정책·연구 보고서 실무형 브리프
-generated_at: 2026-11-23 03:21:01
+generated_at: 2026-11-24 06:34:49
 style: practical
 source_count: 5
 item_count: 5
 new_item_count: 0
 ---
 
-# 정책·연구 보고서 브리프 (2026-11-23)
+# 정책·연구 보고서 브리프 (2026-11-24)
 
 ## 한눈에 보기
 - 이번 업데이트에서 가장 많이 보인 주제는 `기타 정책`이며, 총 2건이 감지되었습니다.
@@ -19,7 +19,7 @@ new_item_count: 0
 - `G-Zone`: WARN (0건) - HTTPConnectionPool(host='gzone.kr', port=80): Max retries exceeded with url: /gzone/gZoneMain.do (Caused by NameResolutionError("HTTPConnection(host='gzone.kr', port=80): Failed to resolve 'gzone.kr' ([Errno -3] Temporary failure in name resolution)"))
 - `PRISM`: OK (0건) - 접속은 성공했지만 차단 정책 또는 동적 로딩 때문에 목록 추출 규칙 보강이 필요합니다.
 - `KRIVET`: OK (5건) - 정상 수집
-- `전북연구원 포커스 J`: OK (0건) - 정상 수집
+- `전북연구원 포커스 J`: WARN (0건) - HTTPSConnectionPool(host='www.jthink.kr', port=443): Max retries exceeded with url: /jthink/2022/inner.php?sMenu=B4000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jthink.kr', port=443) at 0x75819a830ad0>, 'Connection to www.jthink.kr timed out. (connect timeout=30)'))
 
 ## 오늘의 핵심 업데이트
 ### 중등교사 자격 기준과 평가 영역 및 평가 내용 요소: 건설, 기계, 경영·금융, 전기, 전자, 화공
